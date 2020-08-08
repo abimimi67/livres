@@ -1,0 +1,20 @@
+<div class="main">
+  <h2>ROMANCE</h2>
+  <div class="items">
+    <div class="item" *ngFor="let product of romance">
+      <a [routerLink]="['/romance', product.id]">
+        <div class="item-body">
+          <img [defaultImage]="defaultImage" [lazyLoad]="product.image" [useSrcset]="true" />
+        </div>
+        <div class="item-footer">
+          <div class="item-title">
+            {{product.description.substring(0,20)}}...
+          </div>
+          <div class="item-price">
+            18<sup>€90</sup>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>

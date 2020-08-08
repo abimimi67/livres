@@ -1,0 +1,20 @@
+.content ul li img{height:80%;}
+.content ul li{
+  display: flex;
+  flex-direction: column;
+}
+.content ul li ul li {
+  height: 3%;
+  font-size: 20px;
+  /* background-color: beige; */
+  border: 0;
+  text-align: center;
+}
+
+.content h3 {
+  text-align: center;padding-top: 1rem;
+}
+
+
+@media screen and (max-width: 1200px) {
+}

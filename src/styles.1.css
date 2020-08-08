@@ -1,0 +1,138 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  font-family: 'Roboto', 'Sulphur Point', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+#page {
+  /* min-height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  /* background-color: rgb(238, 223, 223) */
+}
+
+div.content {
+  /* flex-grow: 1; */
+  background-color: #ffffff;
+}
+
+div.content > ul {
+  display: flex;
+  /* justify-content: center; */
+  flex-wrap: wrap;
+  /* flex-direction: column;  */
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.content > ul > li a{text-decoration:none}
+div.content > ul > li {
+  flex: 1 0 25%;
+  justify-content: center;
+  height: 300px;
+  /* width:300px; height:300px; */
+  border: 1px #ABACB0 dotted;
+  border-bottom: 0;
+  border-left: 0;
+  background-color: #ffffff;
+  padding-top: 5px;
+  /* margin: 2px; */
+  cursor: pointer;
+}
+
+div.content > ul{
+  border-left: 1px #ABACB0 dotted;
+  border-bottom: 1px #ABACB0 dotted;
+  margin: 1px
+}
+
+div.content > ul li img {
+  display: block;
+  margin: 0 auto;
+  max-height: 60%;
+  max-width: 60%;
+}
+
+
+/* .content ul li {
+  display: flex;
+  flex-direction: column;
+} */
+
+.content ul li ul {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  list-style: none;
+  padding:0
+
+}
+.content ul li ul li.price {
+  font-size: 1.5em;
+  text-align: left;
+  color: #DF1E35;
+  font-weight: 500;
+  /* border: #DF1E35 solid 1px; */
+  width: 100%;
+  align-self:end;
+  padding:7px;
+}
+
+.content ul li ul li.title,
+.content ul li ul li.description
+{
+  align-self:flex-end;
+  font-size: .8em;
+  /* text-align: justify; */
+  /* background-color: beige; */
+  border: 0;
+  line-height: 20px;
+  width: 100%;
+  padding:7px;
+  color:#101111;
+}
+
+.content h3 {
+  text-align: center;
+  padding-top: 1rem;
+}
+
+/**************************************/
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  div.content ul {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+  }
+
+  button.navbar-toggler{
+    background-color: #ABACB0 !important;
+  }
+
+  .navbar-light .navbar-toggler {
+    border-color:#ABACB0 !important;
+  }
+
+/* .content ul li ul li.price {display:none} */
+
+}

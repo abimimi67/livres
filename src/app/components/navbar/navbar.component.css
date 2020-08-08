@@ -1,0 +1,52 @@
+.img-circle{border-radius:50%}
+
+.bg-light{
+   background-color: #ABACB0 !important;
+}
+
+button.navbar-toggler {
+  background-color: rgb(242, 242, 247)
+}
+
+.navbar-brand{font-size:1em; color:rgb(168, 164, 164)}
+
+.navbar div{margin-right: 13px}
+.navbar div ul li:hover{
+  background-color: #6F6F71;
+  border-bottom-color: #ED3044
+}
+
+.navbar div ul li{
+  font-size:.9em;
+  font-weight: bold;
+  border-bottom: 2px #ABACB0 solid
+}
+
+.navbar div ul li a:hover{
+  color: #ffffff
+}
+
+.navbar div ul li a{
+  color: rgb(242, 242, 247)
+}
+
+  .navbar {
+    padding: 0 1rem
+  }
+
+
+@media screen and (max-width: 1200px) {
+  .navbar div ul{
+    background-color: #222222;
+  }
+  .navbar div ul li{
+    border:0;
+    border-bottom: 1px #ffffff solid;
+    padding-left: 7px
+  }
+  .navbar div{
+    margin-right: 0;
+  }
+
+
+}

@@ -1,0 +1,13 @@
+
+<!-- <div id="page"> -->
+<!-- <app-header></app-header> -->
+<app-navbar></app-navbar>
+<app-teaser [hidden] = "currentUrl === '/presentation'"></app-teaser>
+<!-- <app-teaser [hidden] = "currentUrl !== '/categories'||currentUrl !== '/costumes'||currentUrl !== '/gilets'||currentUrl !== '/mode'"></app-teaser> -->
+<!-- <app-mode [hidden]="currentUrl !== '/mode'" class="content"></app-mode>
+<app-costumes [hidden]="currentUrl !== '/costumes'" class="content"></app-costumes>
+<app-mariage [hidden]="currentUrl !== '/mariage'" class="content"></app-mariage>
+<app-gilets [hidden]="currentUrl !== '/gilets'" class="content"></app-gilets> -->
+<router-outlet></router-outlet>
+<app-footer></app-footer>
+<!-- </div> -->

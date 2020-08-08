@@ -1,0 +1,16 @@
+.presentation {
+  padding: 3rem 1rem;
+  /* margin-top: 10px; */
+  background-color: #e9ecef;
+  display: flex;
+  /* justify-content: center */
+}
+.presentation div {
+  padding: 0 20%
+}
+@media screen and (max-width: 1200px) {
+.presentation div {
+  padding: 0;
+}
+
+}
